@@ -1,6 +1,7 @@
 ---
 title: "PM Occupational Exposure Model"
 author: "Chris Pyke, MS"
+bibliography: "references/bibliography.bib"
 execute: 
   echo: false
   warning: false
@@ -25,9 +26,13 @@ This model is intended to determine PM~2.5~ dose for workers based on specified 
 - Activity levels:
   - Proportion of resting, low, moderate, and high at work
   - Proportion of resting, low, moderate, and high away from work
-- Exposure controls/PPE
+- Respirators
   - Respirator use as % of work day
   - Respirator type
+  - Fit testing (true/false)
+  - Required use concentrations
+  - Percent of population/time respirators are used voluntarily
+- Engineering Controls
   - Buildings (home, commercial building)
   - Air filtration
     - Filter efficiency
@@ -49,3 +54,13 @@ This model is intended to determine PM~2.5~ dose for workers based on specified 
 
 - Initially input parameters through the R script
 - Once the model is set, create a Shiny app
+
+# References
+
+- [ ] EPA Exposure Factors Handbook
+- [ ] WA Dept of Ecology [Air Quality Map](https://airqualitymap.ecology.wa.gov/)
+- [ ] Respirator protection factors
+- [ ] Building PM reductions
+- [ ] Building filtration reductions in PM
+- [ ] WA Dept of Labor & Industries [ 2022-08 Wildfire Smoke rulemaking presentation](https://www.lni.wa.gov/safety-health/safety-rules/rulemaking-stakeholder-information/_WildFire/WildfireSmokeStakeholderMeeting8-10-20222.pdf) Slides 25, 26, 29, 30
+      - 
