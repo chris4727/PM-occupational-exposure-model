@@ -57,9 +57,9 @@ This model is intended to determine PM~2.5~ dose for workers based on specified 
 
 # References
 
-- [ ] EPA Exposure Factors Handbook
+- [x] EPA Exposure Factors Handbook [@EPA2011ch6]
 - [ ] WA Dept of Ecology [Air Quality Map](https://airqualitymap.ecology.wa.gov/)
-- [ ] Respirator protection factors
+- [x] Respirator protection factors [@OSHA2009]
 - [ ] Building PM reductions
 - [ ] Building filtration reductions in PM
 - [ ] WA Dept of Labor & Industries [ 2022-08 Wildfire Smoke rulemaking presentation](https://www.lni.wa.gov/safety-health/safety-rules/rulemaking-stakeholder-information/_WildFire/WildfireSmokeStakeholderMeeting8-10-20222.pdf) Slides 25, 26, 29, 30
